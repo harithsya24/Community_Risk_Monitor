@@ -19,7 +19,7 @@ A real-time community safety and risk monitoring application that provides up-to
 - **Frontend**: React + TypeScript + Vite
 - **Backend**: Express.js + Node.js
 - **UI**: Tailwind CSS + Radix UI
-- **Maps**: Leaflet
+- **Maps**: Leaflet, Google Maps
 - **Voice Recognition**: Web Speech API
 
 ## Getting Started
@@ -31,4 +31,3 @@ Follow these instructions to get the project up and running locally:
 git clone https://github.com/your-username/community-risk-monitor.git
 ```
 
-# Community_Risk_Monitor
