@@ -2,6 +2,7 @@
 
 A real-time community safety and risk monitoring application that provides up-to-date information about various risks and conditions in your area.
 
+![Community Risk Monitor Screenshot](./Image01.png)
 ## Features
 
 - **Real-time location-based monitoring**: Get updated information based on your location.
