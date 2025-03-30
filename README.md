@@ -64,15 +64,19 @@ The application integrates with several third-party services:
 
 For additional resources, you can download relevant files from the link below:
 
-s**[Download Resources](https://drive.google.com/file/d/1rwWPEVDXXbBNDnEEo_NivkLnVWk4T0aT/view?usp=sharing)**
+**[Download Resources](https://drive.google.com/file/d/1rwWPEVDXXbBNDnEEo_NivkLnVWk4T0aT/view?usp=sharing)**
 
 ## Contributors
 
 We would like to thank the following contributors for their time and effort in helping develop the Community Risk Monitor:
+
 	•	Amrutha Kanakatte Ravishankar (akanakat@stevens.edu)
+ 
 	•	Sneha Venkatesh (svenkate1@stevens.edu)
+ 
 	•	Hemanth Pillala (hpillala@stevens.edu)
-  • Nisha Thaluru Gopi (nthaluru@stevens.edu)
+ 
+  	• Nisha Thaluru Gopi (nthaluru@stevens.edu)
 
 If you’d like to be added as a contributor, please submit a pull request with your contributions!
 
