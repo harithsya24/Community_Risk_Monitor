@@ -60,10 +60,11 @@ The application integrates with several third-party services:
 	•	TomTom API: Supplies traffic information and road conditions.
 	•	Crime Data APIs: Aggregates safety and crime-related statistics.
 
- ## Voice Commands
+# Download & Resources
 
-The application responds to the voice command “Hey Attila” to activate the AI assistant interface. After activation, you can ask questions or get updates about local conditions like traffic, weather, or crime.
+For additional resources, you can download relevant files from the link below:
 
+s**[Download Resources](https://drive.google.com/file/d/1rwWPEVDXXbBNDnEEo_NivkLnVWk4T0aT/view?usp=sharing)**
 
 ## Contributors
 
