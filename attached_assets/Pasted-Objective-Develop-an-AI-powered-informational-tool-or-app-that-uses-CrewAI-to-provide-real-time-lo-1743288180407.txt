@@ -1,0 +1,66 @@
+Objective: Develop an AI-powered informational tool or app that uses CrewAI to provide real-time, location-based information about community risks, with the added feature of dynamically changing the app's background to a live image of the user’s location. This tool will keep users informed about weather, safety, environmental conditions, and other risks, while enhancing the experience with real-time background updates and personalized alerts.
+
+Key Features:
+Weather & Outfit Card:
+Purpose: Provide real-time weather updates based on the user's location.
+Details: Include temperature, weather conditions (e.g., sunny, cloudy), and outfit suggestions (e.g., "Wear a light jacket").
+CrewAI Role: CrewAI will fetch live weather data using the user's location and provide personalized outfit suggestions.
+Background: The background of the app will dynamically change to a live image of the user's location, reflecting the current weather conditions (e.g., sunny or cloudy).
+Environmental Alerts Card:
+Purpose: Provide alerts for environmental risks such as air quality, pollution, or weather warnings.
+Details: Display environmental alerts (e.g., "Air Quality: Good" or "High Pollution").
+CrewAI Role: CrewAI will retrieve local environmental data based on live location and offer safety recommendations if air quality levels are poor.
+Background: The background will update to a relevant image based on the environmental data (e.g., a pollution-related background if air quality is poor).
+Area Safety / Crime Card:
+Purpose: Inform users about local safety concerns and crime rates in their neighborhood.
+Details: Display crime statistics, safety levels (e.g., "Moderate," "High"), and provide safety tips.
+CrewAI Role: CrewAI will use real-time data to assess local crime rates and provide personalized safety recommendations based on location.
+Background: The app’s background will adjust to show a visual that reflects the user’s current safety level (e.g., a peaceful neighborhood scene or an alert symbol).
+Fire Incident Card:
+Purpose: Keep users informed about nearby fire incidents and fire hazards.
+Details: Alert users about fire-related incidents in their vicinity (e.g., "No nearby fire incidents").
+CrewAI Role: CrewAI will alert users about nearby fire incidents and provide evacuation or safety instructions.
+Background: If there’s a fire-related alert, the background will change to show relevant images, such as a fire zone or safety-related visuals.
+Local News Card:
+Purpose: Provide updates on local news, including accidents, road closures, or other incidents affecting the community.
+Details: Show the latest news headlines (e.g., "Accident on Highway").
+CrewAI Role: CrewAI will retrieve relevant local news updates based on the user’s location and deliver them in real time.
+Background: The background will reflect the news in the user's area (e.g., images related to traffic or local events).
+AI Assistant (CrewAI) in Bottom Right Corner:
+Purpose: Provide users with a conversational AI assistant (CrewAI) for querying additional information, asking for recommendations, or receiving alerts.
+Details: The AI assistant will respond to queries like “What’s the air quality near me?” or “Are there any safety concerns in my area?” and provide real-time recommendations.
+CrewAI Role: CrewAI will provide personalized, location-based insights and recommendations, assisting users with information like evacuation routes, safety precautions, or health recommendations.
+Location: CrewAI will access the user's live location and use it to deliver accurate, tailored responses.
+Core Functionality:
+Live Location Data: The app will request user permission to access their live location (latitude and longitude). CrewAI will use this data to provide tailored, location-specific alerts, weather updates, and safety information, with the background dynamically reflecting the user's live surroundings.
+Dynamic Background Update:
+The background of the app will change according to real-time environmental and geographical data, such as the current weather, local news, or safety conditions in the user’s location.
+For example, if the weather is sunny, the background could show a clear sky, whereas if there’s pollution or a weather warning, the background will update accordingly to reflect the conditions.
+Interactive Map: The app will feature an interactive map where users can see nearby risks, such as fire incidents, crime zones, or environmental hazards, with CrewAI providing real-time updates.
+The map will also adjust based on location, with visuals showing fire zones, accident hotspots, or safe areas.
+Real-Time Data Fetching and AI-Driven Insights: CrewAI will gather live data from trusted external APIs (weather, crime, air quality, news) and present it to users in real-time, offering personalized insights based on their location.
+Users will receive alerts, suggestions, and health/safety tips based on CrewAI’s analysis of this data.
+User-Centered Design: The app will feature responsive, scalable, and accessible UI/UX design to ensure it is usable on all devices and by users with varying abilities. Special attention will be paid to making sure the CrewAI assistant is intuitive and the design is user-friendly.
+Judging Criteria:
+Technology:
+Is the app fully functional and does it work as intended?
+Does CrewAI handle live location data efficiently to provide accurate, location-specific updates and insights?
+How sophisticated and innovative is the use of dynamic backgrounds that change based on location and environmental data?
+Is the code clean, efficient, and well-structured?
+Design:
+Is the app’s UI/UX visually appealing, user-friendly, and accessible?
+Is the dynamic background feature seamlessly integrated and engaging for the user?
+Is the CrewAI assistant in the bottom right corner easily accessible and intuitive to use?
+Does the app adapt to different screen sizes and prioritize inclusivity?
+Business:
+Is the concept unique, scalable, and adaptable to various communities?
+Can the app be adopted by local authorities, schools, or emergency services?
+How effectively does the app solve a real-world problem and impact the community?
+Presentation:
+Does the presentation clearly explain how CrewAI functions, especially the dynamic background and AI-driven insights?
+Does the demo showcase how CrewAI interacts with the user to provide location-specific data, alerts, and recommendations?
+Is the functionality of the app well-explained and demonstrated in the video?
+Inspiration:
+Is the app’s concept innovative and exciting?
+Does the app effectively address pressing real-world problems like community safety, health concerns, or environmental risks?
+Is the dynamic background feature a standout element that enhances the user experience?

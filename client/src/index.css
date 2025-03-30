@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+.card-on-map {
+  @apply bg-white/90 backdrop-blur-sm border border-neutral-200 shadow-lg;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+
+.duration-1500 {
+  transition-duration: 1500ms;
+}
+
+.bg-danger {
+  background-color: #ef4444;
+}
+
+.bg-alert {
+  background-color: #f59e0b;
+}
+
+.text-danger {
+  color: #ef4444;
+}
+
+.text-alert {
+  color: #f59e0b;
+}
+
+.text-safe {
+  color: #10b981;
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.leaflet-popup-content-wrapper, 
+.leaflet-popup-tip {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.typing-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 6px;
+  padding: 8px 12px !important;
+  min-width: 60px;
+}
+
+.typing-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #888;
+  border-radius: 50%;
+  animation: typing-bubble 1.4s infinite ease-in-out;
+  opacity: 0.6;
+}
+
+.typing-dot:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.typing-dot:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes typing-bubble {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.duck-bounce {
+  display: inline-block;
+  animation: duck-bounce 2s ease-in-out infinite;
+  transform-origin: bottom;
+}
+
+@keyframes duck-bounce {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-5px) rotate(-5deg);
+  }
+  50% {
+    transform: translateY(0) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(5deg);
+  }
+}
+
+.duck-message {
+  position: relative;
+  background-color: #FFFDE7 !important;
+  border-color: #FEF9C3 !important;
+}
+
+.duck-message::before {
+  content: '🦆';
+  position: absolute;
+  font-size: 0.5rem;
+  top: -10px;
+  left: 5px;
+  opacity: 0.5;
+  filter: sepia(100%) saturate(300%) brightness(95%) hue-rotate(15deg);
+}
+
+.chat-container {
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.2) transparent;
+}
+
+.yellow-duck {
+  filter: sepia(100%) saturate(300%) brightness(95%) hue-rotate(15deg);
+}
