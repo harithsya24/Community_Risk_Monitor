@@ -61,7 +61,7 @@ The application integrates with several third-party services:
 	•	TomTom API: Supplies traffic information and road conditions.
 	•	Crime Data APIs: Aggregates safety and crime-related statistics.
 
-# DEMO
+# Demo
 
 For detailed information about the Demo:
 
